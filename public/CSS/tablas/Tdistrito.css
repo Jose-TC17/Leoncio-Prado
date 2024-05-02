@@ -1,0 +1,274 @@
+.hea{
+  margin-top: 6vh;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+ 
+}
+
+/* BOTON VER */
+
+
+.noselect1 {
+ width: 120px;
+ height: 35px;
+ cursor: pointer;
+ display: flex;
+ align-items: center;
+ background: rgb(255, 255, 255);
+ border: none;
+ border-radius: 5px;
+ box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+ background: #7d84ff;
+ text-decoration: none;
+}
+
+.noselect1, .noselect1 span {
+ transition: 100ms;
+}
+
+.noselect1 .text1 {
+ transform: translateX(23px);
+ color: white;
+ font-weight: bold;
+}
+
+.noselect1 .icon1 {
+ position: absolute;
+ border-left: 1px solid #ffffff;
+ transform: translateX(80px);
+ height: 20px;
+ width: 20px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ color: white;
+ padding-left: 8px;
+}
+
+.noselect1 svg {
+ width: 10px;
+ fill: #eee;
+}
+
+.noselect1:hover {
+ background: #5a47ff;
+}
+
+.noselect1:hover .text1 {
+ color: transparent;
+}
+
+.noselect1:hover .icon1 {
+ width: 120px;
+ border-left: none;
+ transform: translateX(-4px);
+
+}
+
+.noselect1:focus {
+ outline: none;
+}
+
+.noselect1:active .icon1 svg {
+ transform: scale(0.8);
+}
+
+
+
+
+/* BOTON EDITAR */
+
+
+
+.noselect2 {
+    width: 120px;
+    height: 35px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: rgb(2, 161, 2);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+    background: rgb(26, 190, 26);
+    text-decoration: none;
+   }
+   
+   .noselect2, .noselect2 span {
+    transition: 100ms;
+   }
+   
+   .noselect2 .text2 {
+    transform: translateX(23px);
+    color: white;
+    font-weight: bold;
+   }
+   
+   .noselect2 .icon2 {
+    position: absolute;
+    border-left: 1px solid #ffffff;
+    transform: translateX(80px);
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-left: 8px;
+   }
+   
+   .noselect2 svg {
+    width: 10px;
+    fill: #eee;
+   }
+   
+   .noselect2:hover {
+    background: rgb(2, 161, 2);
+   }
+   
+   .noselect2:hover .text2 {
+    color: transparent;
+   }
+   
+   .noselect2:hover .icon2 {
+    width: 120px;
+    border-left: none;
+    transform: translateX(-4px);
+   
+   }
+   
+   .noselect2:focus {
+    outline: none;
+   }
+   
+   .noselect2:active .icon2 svg {
+    transform: scale(0.8);
+   }
+
+
+
+
+/* BOTON ELIMINAR */
+
+
+button {
+ width: 120px;
+ height: 35px;
+ cursor: pointer;
+ display: flex;
+ align-items: center;
+ background: red;
+ border: none;
+ border-radius: 5px;
+ box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+ background: #e62222;
+}
+
+button, button span {
+ transition: 100ms;
+}
+
+button .text {
+ transform: translateX(23px);
+ color: white;
+ font-weight: bold;
+}
+
+button .icon {
+ position: absolute;
+ border-left: 1px solid #c41b1b;
+ transform: translateX(80px);
+ height: 20px;
+ width: 20px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+button svg {
+ width: 10px;
+ fill: #eee;
+}
+
+button:hover {
+ background: #ff3636;
+}
+
+button:hover .text {
+ color: transparent;
+}
+
+button:hover .icon {
+ width: 120px;
+ border-left: none;
+ transform: translateX(-4px);
+}
+
+button:focus {
+ outline: none;
+}
+
+button:active .icon svg {
+ transform: scale(0.8);
+}
+
+
+.button {
+    top: 5vh;
+    position: relative;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 1px solid #345c97;
+    background-color: #3a5ba8;
+    text-decoration: none;
+  }
+  
+  .button, .button__icon, .button__text {
+    transition: all 0.3s;
+  }
+  
+  .button .button__text {
+    transform: translateX(30px);
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .button .button__icon {
+    position: absolute;
+    transform: translateX(109px);
+    height: 100%;
+    width: 39px;
+    background-color: #346a97;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button .svg {
+    width: 30px;
+    stroke: #fff;
+  }
+  
+  .button:hover {
+    background: #345a97;
+  }
+  
+  .button:hover .button__text {
+    color: transparent;
+  }
+  
+  .button:hover .button__icon {
+    width: 148px;
+    transform: translateX(0);
+  }
+  
+  .button:active .button__icon {
+    background-color: #2e6086;
+  }
+  
+  .button:active {
+    border: 1px solid #2e4886;
+  }
